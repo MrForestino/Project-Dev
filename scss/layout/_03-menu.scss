@@ -1,0 +1,57 @@
+.menu {
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	height: 100px;
+	background-color: #2C3137;
+	// border-radius: 10px;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	// margin: 10px 0;
+	left: 50%;
+	transform: translateX(-50%);
+	width: 100%;
+	// max-width: 1200px;
+	&__text{
+		font-weight: 300;
+		font-size: 14px;
+		text-align: center;
+		color: getColor('color-white');
+	}
+}
+.soon{
+	margin-left: 31px;
+}
+
+.close{
+	margin-right: 31px;
+}
+.img{
+	width: 40px;
+}
+// .soon, .close, .project{
+// 	outline: 2px dotted tomato;
+// }
+// @media (min-width: 1200px) {
+//   .menu {
+//     max-width: 1200px;
+//   }
+// }
+
+// @media (min-width: 769px) and (max-width: 1199px) {
+//   .menu {
+//     max-width: 768px;
+//   }
+// }
+
+// @media (max-width: 768px) {
+//   .menu {
+//     max-width: 480px;
+//   }
+// }
+// @media (max-width: 480px) {
+//   .menu {
+//     max-width: 320px;
+//   }
+// }

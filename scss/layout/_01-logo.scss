@@ -1,0 +1,17 @@
+.logo{
+	width: 241px;
+	height: 52px;
+	background-color: getColor('color-dark');
+	border-radius: 10px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0 auto;
+	margin-top: 60px;
+}
+.logo__text{
+	font-weight: 700;
+	font-size: 24px;
+	letter-spacing: 0.13em;
+	color: getColor('color-white');
+}

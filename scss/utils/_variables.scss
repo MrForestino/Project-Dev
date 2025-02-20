@@ -1,0 +1,16 @@
+$colors:(
+	color-black: #000000,
+	// color-dark: #212121 ,
+	color-dark:	#232E3C,
+	color-blue: #229ED9, 
+	color-white: #ffffff,
+	);
+$fonts:(
+	font-family: 'Poppins',
+	);
+@function getFont($key) {
+    @return map-get($fonts, $key);
+}
+@function getColor($key) {
+    @return map-get($colors, $key);
+}
