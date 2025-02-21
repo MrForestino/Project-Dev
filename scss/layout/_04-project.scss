@@ -1,0 +1,32 @@
+.projects{
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	gap: 20px;
+	margin-top: 50px;
+
+
+	&__list{
+		width: 270px;
+		height: 300px;
+		background-color: #2C3137;
+		border-radius: 10px;
+		
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		&--image{
+			width: 240px;
+			margin-bottom: 20px;
+		}
+		&--link{
+			text-align: center;
+		}
+		&--text{
+			font-size: 1rem;
+			font-weight: 700;
+			color: getColor('color-blue');
+
+		}
+	}
+}
